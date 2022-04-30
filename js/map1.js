@@ -67,7 +67,7 @@ map.on('mousemove', ({point}) => {
     document.getElementById('text-description').innerHTML = state.length ?
         `<h3>${state[0].properties.county} County</h3>
          <p>Of the <strong><em>${state[0].properties.pop18}</strong> people,</em> there have been <strong><em>${state[0].properties.cases}</strong> cases.</p>` :
-        `<p>Hover over a state!</p>`;
+        `<p>Hover over a county!</p>`;
 });
 
 const legend = document.getElementById('legend');
